@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Vsix Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
+  <Identifier Id="Demo5.Microsoft.bd8dafbe-7a12-4123-92d9-7eb55d0c70ee">
+    <Name>Demo5</Name>
+    <Author>Microsoft</Author>
+    <Version>1.0</Version>
+    <Description xml:space="preserve">This is a sample code issue extension for the Microsoft CodeName Roslyn CTP.</Description>
+    <Locale>1033</Locale>
+    <SupportedProducts>
+      <VisualStudio Version="10.0">
+        <Edition>Pro</Edition>
+      </VisualStudio>
+    </SupportedProducts>
+    <SupportedFrameworkRuntimeEdition MinVersion="4.0" MaxVersion="4.0" />
+  </Identifier>
+  <References>
+  <!--Add References here-->  
+  </References>
+
+  <Content>
+    <MefComponent>|%CurrentProject%|</MefComponent>
+  </Content>
+
+</Vsix>
